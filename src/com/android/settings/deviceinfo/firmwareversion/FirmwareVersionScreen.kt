@@ -78,6 +78,7 @@ open class FirmwareVersionScreen : PreferenceScreenMixin, PreferenceSummaryProvi
             +BasebandVersionPreference()
             +KernelVersionPreference()
             +SelinuxStatusPreference()
+            +OpenGLVersionPreference()
             +LineageBuildDatePreference()
             +SimpleBuildNumberPreference()
         }
