@@ -29,6 +29,9 @@ class OpenGLVersionPreference :
     override val key: String
         get() = "opengl_version"
 
+    override val purpose: Int
+        get() = R.string.opengl_version_purpose
+
     override val title: Int
         get() = R.string.opengl_version
 
